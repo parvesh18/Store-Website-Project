@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monty Store</title>
+    
+  <link rel="stylesheet" href="/assets/index.437850f9.css">
+</head>
+
+<body>
+    <div class="">
+        <!-- navbar -->
+        <div class="md:flex md:flex-row md:justify-between mx-8 h-10 mt-4">
+            <!-- left part -->
+            <div class="flex flex-row justify-center mb-4">
+                <div class=""><a href="#"><img src="/assets/logo.30dfb956.svg" class="w-[80%]" alt=""></a></div>
+            </div>
+            <!-- right part -->
+            <div class=" flex flex-row justify-center items-center">
+                <a class="ml-2 md:ml-4 hover:underline-offset-2 hover:underline md:font-semibold" href="#">Home</a>
+                <a class="ml-2 md:ml-4 hover:underline-offset-2 hover:underline md:font-semibold" href="#">Shop</a>
+                <a class="ml-2 md:ml-4 hover:underline-offset-2 hover:underline md:font-semibold" href="#">Blog</a>
+                <a class="ml-2 md:ml-4 hover:underline-offset-2 hover:underline md:font-semibold" href="#">Contact</a>
+                <a class="flex text-sm md:text-md items-center bg-purple-600 ml-4 hover:underline-offset-2 hover:underline text-white px-4 py-2 rounded-2xl"
+                    href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                    Cart(0)
+                </a>
+            </div>
+        </div>
+
+        <!-- hero section -->
+        <div class="flex flex-col md:flex-row mt-20 text-center md:text-left">
+            <!-- left part -->
+            <div class="flex flex-col items-center  md:w-2/5 md:justify-center md:ml-10 xl:ml-20">
+                <h2 class=" text-3xl md:text-5xl mb-3 tracking-wide font-semibold md:self-start">Some Catchy Title Here
+                </h2>
+                <p class="uppercase text-xs md:text-lg md:self-start text-slate-700 tracking-wide">Our brand tagline
+                    goes
+                    here</p>
+                <p class="uppercase text-xs md:text-lg mb-3 md:self-start text-slate-700 tracking-wide">Our brand moto
+                    goes
+                    here</p>
+                <a href="" class="bg-gradient-to-r from-red-700 to-pink-600 hover:scale-110 text-white rounded-2xl px-3 py-2 uppercase
+                    tracking-wide md:self-start text-xs md:text-md ">Show
+                    Now</a>
+            </div>
+            <!-- right part -->
+            <div class="md:w-3/5 flex justify-center mt-10 md:mt-0">
+                <img src="/assets/hero-img.6870ea1f.svg" class="w-4/5" alt="">
+            </div>
+        </div>
+
+        <!-- men's collection -->
+        <div class="my-12">
+            <div class="text-2xl md:ml-12 mb-3 text-center md:text-left font-semibold">
+                Men's Collection
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
+
+            <div class="flex flex-row mx-5 justify-evenly flex-wrap">
+                <!-- card-1 -->
+                <div class="rounded-md shadow-xl pb-2 w-[18rem] my-4">
+                    <div>
+                        <a href="">
+                            <img src="/assets/product1.606e8185.jpg" class="w-[18rem] rounded-t-xl" alt="">
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class=""><a href="#">Mens T-Shirt</a></h3>
+                        <div class="flex my-2">
+                            <div class="w-4 h-4 rounded-full bg-black drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-red-800 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-green-600 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-white drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-yellow-500 drop-shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex my-2 space-x-1">
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XXL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">L</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">M</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">S</span>
+                        </div>
+                        <div class="font-sans mt-4">
+                            <a href="#"
+                                class="bg-gradient-to-r from-red-700 to-pink-600 text-white text-sm px-3 py-[6px] rounded-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Add to Cart
+                            </a>
+                            <a href="" class="bg-purple-700 text-white px-3 py-[6px] rounded-2xl text-sm ml-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="rounded-md shadow-xl pb-2 w-[18rem] my-4">
+                    <div>
+                        <a href="">
+                            <img src="/assets/product2.29a64613.jpg" class="w-[18rem] rounded-t-xl" alt="">
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class=""><a href="#">Slim Khaki Trousers</a></h3>
+                        <div class="flex my-2">
+                            <div class="w-4 h-4 rounded-full bg-black drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-red-800 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-green-600 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-white drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-yellow-500 drop-shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex my-2 space-x-1">
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XXL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">L</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">M</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">S</span>
+                        </div>
+                        <div class="font-sans mt-4">
+                            <a href="#"
+                                class="bg-gradient-to-r from-red-700 to-pink-600 text-white text-sm px-3 py-[6px] rounded-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Add to Cart
+                            </a>
+                            <a href="" class="bg-purple-700 text-white px-3 py-[6px] rounded-2xl text-sm ml-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="rounded-md shadow-xl pb-2 w-[18rem] my-4">
+                    <div>
+                        <a href="">
+                            <img src="/assets/product3.9855decd.jpg" class="w-[18rem] rounded-t-xl" alt="">
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class=""><a href="#">Nike Shoes</a></h3>
+                        <div class="flex my-2">
+                            <div class="w-4 h-4 rounded-full bg-black drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-red-800 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-green-600 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-white drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-yellow-500 drop-shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex my-2 space-x-1">
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XXL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">L</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">M</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">S</span>
+                        </div>
+                        <div class="font-sans mt-4">
+                            <a href="#"
+                                class="bg-gradient-to-r from-red-700 to-pink-600 text-white text-sm px-3 py-[6px] rounded-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Add to Cart
+                            </a>
+                            <a href="" class="bg-purple-700 text-white px-3 py-[6px] rounded-2xl text-sm ml-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-4 -->
+                <div class="rounded-md shadow-xl pb-2 w-[18rem] my-4">
+                    <div>
+                        <a href="">
+                            <img src="/assets/product4.cff519e5.jpg" class="w-[18rem] rounded-t-xl" alt="">
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class=""><a href="#">Wirst Watch</a></h3>
+                        <div class="flex my-2">
+                            <div class="w-4 h-4 rounded-full bg-black drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-red-800 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-green-600 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-white drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-yellow-500 drop-shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex my-2 space-x-1">
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XXL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">L</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">M</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">S</span>
+                        </div>
+                        <div class="font-sans mt-4">
+                            <a href="#"
+                                class="bg-gradient-to-r from-red-700 to-pink-600 text-white text-sm px-3 py-[6px] rounded-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Add to Cart
+                            </a>
+                            <a href="" class="bg-purple-700 text-white px-3 py-[6px] rounded-2xl text-sm ml-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- women's collection -->
+        <div class="my-12">
+            <div class="text-2xl md:ml-12 mb-3 text-center md:text-left font-semibold">
+                Women's Collection
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
+
+            <div class="flex flex-row mx-5 justify-evenly flex-wrap">
+                <!-- card-1 -->
+                <div class="rounded-md shadow-xl pb-2 w-[18rem] my-4">
+                    <div>
+                        <a href="">
+                            <img src="/assets/product1.76030c76.jpg" class="w-[18rem] rounded-t-xl" alt="">
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class=""><a href="#">V Neck Tassel Cape</a></h3>
+                        <div class="flex my-2">
+                            <div class="w-4 h-4 rounded-full bg-black drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-red-800 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-green-600 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-white drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-yellow-500 drop-shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex my-2 space-x-1">
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XXL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">L</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">M</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">S</span>
+                        </div>
+                        <div class="font-sans mt-4">
+                            <a href="#"
+                                class="bg-gradient-to-r from-red-700 to-pink-600 text-white text-sm px-3 py-[6px] rounded-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Add to Cart
+                            </a>
+                            <a href="" class="bg-purple-700 text-white px-3 py-[6px] rounded-2xl text-sm ml-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="rounded-md shadow-xl pb-2 w-[18rem] my-4">
+                    <div>
+                        <a href="">
+                            <img src="/assets/product2.4a1e4eba.jpg" class="w-[18rem] rounded-t-xl" alt="">
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class=""><a href="#">Printed Wrap Dress</a></h3>
+                        <div class="flex my-2">
+                            <div class="w-4 h-4 rounded-full bg-black drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-red-800 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-green-600 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-white drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-yellow-500 drop-shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex my-2 space-x-1">
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XXL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">L</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">M</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">S</span>
+                        </div>
+                        <div class="font-sans mt-4">
+                            <a href="#"
+                                class="bg-gradient-to-r from-red-700 to-pink-600 text-white text-sm px-3 py-[6px] rounded-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Add to Cart
+                            </a>
+                            <a href="" class="bg-purple-700 text-white px-3 py-[6px] rounded-2xl text-sm ml-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="rounded-md shadow-xl pb-2 w-[18rem] my-4">
+                    <div>
+                        <a href="">
+                            <img src="/assets/product3.2af232ab.jpg" class="w-[18rem] rounded-t-xl" alt="">
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class=""><a href="#">Blue Denim Dress</a></h3>
+                        <div class="flex my-2">
+                            <div class="w-4 h-4 rounded-full bg-black drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-red-800 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-green-600 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-white drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-yellow-500 drop-shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex my-2 space-x-1">
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XXL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">L</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">M</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">S</span>
+                        </div>
+                        <div class="font-sans mt-4">
+                            <a href="#"
+                                class="bg-gradient-to-r from-red-700 to-pink-600 text-white text-sm px-3 py-[6px] rounded-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Add to Cart
+                            </a>
+                            <a href="" class="bg-purple-700 text-white px-3 py-[6px] rounded-2xl text-sm ml-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-4 -->
+                <div class="rounded-md shadow-xl pb-2 w-[18rem] my-4">
+                    <div>
+                        <a href="">
+                            <img src="/assets/product4.fa2bc741.jpg" class="w-[18rem] rounded-t-xl" alt="">
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class=""><a href="#">High Waist Denim Skirt</a></h3>
+                        <div class="flex my-2">
+                            <div class="w-4 h-4 rounded-full bg-black drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-red-800 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-green-600 drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-white drop-shadow-md mr-2"></div>
+                            <div class="w-4 h-4 rounded-full bg-yellow-500 drop-shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex my-2 space-x-1">
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">XXL</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">L</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">M</span>
+                            <span class="text-gray-500 border-2 px-2 text-xs rounded-md">S</span>
+                        </div>
+                        <div class="font-sans mt-4">
+                            <a href="#"
+                                class="bg-gradient-to-r from-red-700 to-pink-600 text-white text-sm px-3 py-[6px] rounded-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                Add to Cart
+                            </a>
+                            <a href="" class="bg-purple-700 text-white px-3 py-[6px] rounded-2xl text-sm ml-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact us -->
+        <div class="flex flex-row justify-between sm:mx-10 my-10 px-5 text-white">
+            <div
+                class="lg:w-3/5 w-full rounded-2xl py-auto md:pt-10 bg-gradient-to-r from-purple-700 to-white pl-10 py-5 lg:py-0 flex flex-col">
+                <div class="lg:w-1/2 w-4/5 lg:my-10 md:mt-20 my-5">
+                    <h2 class="text-2xl font-extrabold tracking-wide">Subscribe to get our offers first</h2>
+                    <p class="mt-3 text-sm tracking-wider font-serif">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Dignissimos
+                        asperiores hic facere
+                        assumenda
+                        rerum nobis non, nisi ipsam explicabo at beatae vel fuga, similique quod deserunt error neque
+                        voluptate id fugiat?</p>
+                    <input type="email" class="bg-slate-700 mt-3 rounded-md px-2 py-2 w-[80%]"
+                        placeholder="Enter email address"><br>
+                    <button
+                        class="uppercase bg-red-600 px-3 py-2 rounded-md w-[80%] mt-3 hover:bg-red-700">Subscribe</button>
+                </div>
+            </div>
+            <div class="2/5 lg:flex lg:flex-row hidden">
+                <img src="/assets/subscribe-banner.524b5605.png" class="h-[400px]" alt="">
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div>
+            <footer class="p-4 shadow md:flex md:items-center md:justify-between md:p-4 bg-gray-800">
+                <span class="text-sm sm:text-center text-gray-400">© 2022 <a href="#"
+                        class="hover:underline">Monty™</a>. All Rights Reserved.
+                </span>
+                <ul class="flex flex-wrap items-center mt-3 text-sm  text-gray-400 sm:mt-0">
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
